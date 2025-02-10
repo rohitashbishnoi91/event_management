@@ -33,3 +33,20 @@ This repository contains the frontend code for the Event Management Platform, wh
    ```bash
    git clone https://github.com/rohitashbishnoi91/event_management
    cd https://github.com/rohitashbishnoi91/event_management
+
+ 2. Install dependencies:
+
+
+
+npm install
+Run the development server:
+
+
+npm start
+The app will be running at http://localhost:3000.
+
+Deployment
+Frontend Hosting: Deployed on Vercel or Netlify for free hosting.
+API Integration
+The frontend interacts with the backend API using JWT for secure authentication and WebSockets for real-time updates.
+
