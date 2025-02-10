@@ -1,0 +1,55 @@
+/* src/styles/App.module.css */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: #0ff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #0ff;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar:hover {
+    box-shadow: 0px 6px 15px rgba(0, 255, 255, 0.4);
+}
+
+/* Navbar Links */
+.navbar a {
+    color: #0ff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #ff0099;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 20px;
+    padding: 20px;
+    background: #141414;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.main-content:hover {
+    box-shadow: 0px 6px 20px rgba(0, 255, 255, 0.2);
+}

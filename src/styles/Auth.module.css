@@ -1,0 +1,95 @@
+/* Full Page Centering */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+    background: url('https://source.unsplash.com/1920x1080/?futuristic,robot,cyber') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the Login Box */
+.auth-container {
+    width: 400px;
+    padding: 30px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    background: rgba(20, 20, 20, 0.9); /* Slight transparency */
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-container:hover {
+    box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.6);
+}
+
+/* Heading */
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0ff;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #0ff;
+    margin-bottom: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #0ff;
+    border-radius: 6px;
+    background: #1a1a1a;
+    color: #e0e0e0;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+    border-color: #ff0099;
+    box-shadow: 0px 0px 10px rgba(255, 0, 153, 0.6);
+    outline: none;
+}
+
+/* Button */
+.button {
+    background: linear-gradient(135deg, #0ff, #0088ff);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 136, 255, 0.5);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
